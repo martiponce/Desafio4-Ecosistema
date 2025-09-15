@@ -4,10 +4,10 @@
  */
 package desafio4;
 
-/**
- *
- * @author User
- */
-public class Cebra {
-    
+
+public class Cebra extends Animal implements HabitatSabana {
+    public Cebra(String nombre, double peso) {
+        super(nombre, peso);
+    }
+    // ... (resto del código de la cebra)
 }
