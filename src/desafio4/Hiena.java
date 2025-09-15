@@ -4,10 +4,10 @@
  */
 package desafio4;
 
-/**
- *
- * @author User
- */
-public class Hiena {
-    
+
+public class Hiena extends Animal implements HabitatSabana {
+    public Hiena(String nombre, double peso) {
+        super(nombre, peso);
+    }
+    // ... (resto del código de la hiena)
 }
